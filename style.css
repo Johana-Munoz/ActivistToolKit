@@ -1,0 +1,233 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Uchen&display=swap'); 
+/* STYLE SECTIONING TAGS */
+* { /* Reset the space of the webpage */
+   margin: 0px;
+   padding: 0px;
+}
+
+body {
+ /*background-color is a gradient. */
+ background-image: linear-gradient(#7fad54,mediumseagreen);
+}
+
+/* STYLE TEXT */
+
+.topmiddle {
+  background-color: black;
+  font-size: 45px;
+  font-family: 'Anton', sans-serif;
+  color:white;
+  position: absolute;
+  top: 30%; /* changes the location (y-axis)*/
+  left: 50%; /* changes the location over the x-axis*/
+  transform: translate(-50%, -50%);
+  border-radius: 15px;
+  padding:2%;
+}
+/* the big white letters*/
+.question1 {
+  background: black;
+  font-size: 19px;
+   font-family: 'uchen', serif; 
+  color: white;
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 2%;
+  border-radius: 15px;
+}
+/* first information box^*/
+/* second information box*/
+#side{
+  color: white;
+  font-size: 16px;
+  font-family: 'uchen', serif; 
+  background-color: black;
+  padding: 2%;
+  position: absolute; 
+  bottom: -155%;
+  left: 60%;
+  width: 32vw;
+  border-radius: 5px;
+}
+/* third information box*/
+#location{
+  background-color: black;
+  color: white;
+  font-size: 16px;
+  font-family: 'uchen', serif;
+  padding: 2%;
+  position: absolute;
+  bottom: -195%;
+  width: 30vw;
+  left: 8%;
+}
+
+
+.suggestion{
+  background-color: black;
+  font-size: 18px;
+  font-family: 'uchen', serif;
+  color:white;
+  opacity: 0.9;
+  position: absolute;
+  width: 50%;
+  top: 450px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 15px;
+  padding:2%;
+}
+.everyday{
+ background-color: black;
+  font-size: 18px;
+  font-family: 'uchen', serif;
+  color:white;
+  position: absolute;
+  width: 50%;
+  top: 700px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 15px;
+  padding:2%;
+}
+
+
+
+
+/* STYLE IMAGES */
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+} 
+img{
+  width: 100%; 
+}
+.parallax{
+  background-image: url("assets/forest.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no repeat;
+  background-size: cover;
+  
+}
+#sad{
+  position: absolute;
+  height: 50%;
+  width: 40%;
+  bottom: -140%;
+  left: 8%;
+  border-radius: 5px;
+  border-style: solid; 
+  border-color: black;
+  border-width: 5px;
+
+}
+
+/* STYLE NAV BAR */
+ul {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+  overflow: hidden;
+  background-color: #2A5D8C; 
+  text-align: center;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  font-family: 'Uchen', serif;
+  font-size: 35px;
+  display: block;
+  color: rgb(0, 0, 0);
+  padding: 10px 12px;
+  text-decoration: none;
+}
+
+/* STYLE BUTTONS */
+.genFact{
+  background-color: rgb(78, 98, 209);
+  opacity: 0.9;
+  border-radius: 8px;
+  border-style: none;
+  
+  padding: 10px;
+  margin-top: 210px;
+  margin-left: 35%;
+  margin-right: 35%;
+
+  font-family: 'Anton', sans-serif;
+  font-size: 18px;
+  text-align: center;
+  color: black;  
+
+}
+
+#fact{
+  border-style: none; 
+  padding: 10px;
+  margin-top: 10px;
+  margin-left: 15%;
+  margin-right: 15%;
+
+  font-family: 'uchen', serif;
+  font-size: 25px;
+  text-align: center;
+  color: black; 
+}
+
+#factBtn{
+  padding: 1.5% ;
+  font-family: 'Anton', sans-serif;
+  color: black;
+}
+
+/* ADD MORE! */
+.attribution{
+ font-family: 'uchen', serif;
+ font-size: 12px;
+ border-style: none;
+ left: 415px;
+ position: absolute; 
+ 
+ 
+ 
+}
+.secAttribution{
+ position: absolute;
+ font-family: 'uchen', serif;
+ font-size: 12px;
+ border-style: none;
+ left: 600px; 
+ 
+}
+img{
+  width: 100%;
+}
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.topCenter {
+  background-color: black;
+  font-size: 20px;
+  font-family: 'Anton', sans-serif;
+  opacity: 0.8;
+  color:white;
+  position: absolute;
+  width: 50%;
+  top: 220px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 15px;
+  padding:2%;
+}
+
+
